@@ -14,6 +14,8 @@ public class SpringBootJdbcController {
         
        jdbc.execute( "insert into  STUDENTS values (2,'Nidhi',05,'wakad')");
        
+       
+       //JDBC ecconection 
         return"data inserted Successfully";  
     }  
 }
